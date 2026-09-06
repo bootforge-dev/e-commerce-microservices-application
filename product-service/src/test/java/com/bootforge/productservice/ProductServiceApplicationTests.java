@@ -1,4 +1,4 @@
-package com.bootforge.product_service;
+package com.bootforge.productservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

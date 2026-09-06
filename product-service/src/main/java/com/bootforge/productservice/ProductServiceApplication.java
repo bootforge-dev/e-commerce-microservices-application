@@ -1,4 +1,4 @@
-package com.bootforge.product_service;
+package com.bootforge.productservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

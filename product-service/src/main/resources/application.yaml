@@ -1,3 +1,24 @@
+server:
+  port: 8081
 spring:
   application:
     name: product-service
+  datasource:
+    url: jdbc:mysql://localhost:3307/product_db
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    database: mysql
+    database-platform: org.hibernate.dialect.MySQLDialect
+    properties:
+      hibernate:
+        format_sql: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
